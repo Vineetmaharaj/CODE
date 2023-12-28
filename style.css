@@ -1,0 +1,44 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+.bg_heart {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url("https://i.postimg.cc/X76DgxXv/Whats-App-Image-2023-12-28-at-1-29-57-PM.jpg");
+  background-size: 100vh 100vh;
+  background-size: cover;
+  z-index: -1;
+  animation: vineet 55s infinite ease-in-out;
+}
+
+@keyframes vineet {
+  0% {
+    background-image: url("https://i.postimg.cc/gkhmxwR9/Whats-App-Image-2023-12-28-at-1-20-37-PM.jpg");
+  }
+  25% {
+    background-image: url("https://i.postimg.cc/fLsBfrqj/Whats-App-Image-2023-12-28-at-1-23-47-PM.jpg");
+  }
+  50% {
+    background-image: url(" https://i.postimg.cc/MG2DzLw2/Whats-App-Image-2023-12-28-at-1-23-10-PM.jpg");
+  }
+  80% {
+    background-image: url("https://i.postimg.cc/fy74vPNx/Whats-App-Image-2023-12-28-at-1-34-46-PM-1.jpg");
+  }
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: cursive;
+}
